@@ -23,9 +23,9 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 
-# CORS_ALLOWED_ORIGINS = [
-#
-# ]
+CORS_ALLOWED_ORIGINS = [
+    'https://noteapp-frontend-l0zp.onrender.com'
+]
 
 STORAGES = {
     "default":{
